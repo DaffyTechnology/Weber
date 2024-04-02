@@ -1,0 +1,744 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body{
+    background-color: #3498DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1500px;
+}   
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+.box{
+    height: 320px;
+    color: white;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    margin-top: 120px;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+}
+.element{
+    height: 90px;
+    width: 450px;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: 5px solid black;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 25px;
+    padding: 0px 5px;
+}
+.element:hover{
+    border: 5px solid #3498DB;
+}
+::placeholder{
+    color: black;
+    padding: 0px 5px;
+}
+.btn{
+    height: 60px;
+    width: 180px;
+    background: #3498DB;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+    margin-top: 20px;
+}
+.element2{
+    margin-left: 390px;
+    top: 500;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    border: 4px solid white;
+    cursor: pointer;
+}
+.element2:hover{
+    border: 4px solid #18bfef;
+}
+.dev{
+    margin-top: 150px;
+}
+.dev p{
+    color: yellow;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.dev .d{
+    border-bottom: 7px solid white;
+}
+@media (max-width: 320px){
+body{
+    background-color: #3498DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+ }
+h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+ }
+.box{
+    height: 320px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+ }
+.element{
+    height: 90px;
+    width: 210px;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: 5px solid black;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 25px;
+    padding: 0px 5px;
+ }
+.element:hover{
+    border: 5px solid #3498DB;
+ }
+::placeholder{
+    color: black;
+    padding: 0px 5px;
+ }
+.btn{
+    height: 50px;
+    width: 180px;
+    background: #3498DB;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+    margin-top: 20px;
+ }
+.element2{
+    margin-left: 200px;
+    top: 500;
+    top: 0;
+    left: 0;
+    position: fixed;
+    position: fixed;
+    align-items: center;
+    margin-top: 35px;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    border: 4px solid white;
+    cursor: pointer;
+ }
+.element2:hover{
+    border: 4px solid #18bfef;
+ }
+.dev{
+    margin-top: 80px;
+ }
+.dev p{
+    color: yellow;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+.dev .d{
+    border-bottom: 7px solid white;
+ }
+}
+@media (max-width: 375px){
+body{
+    background-color: #3498DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+ }
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+ }
+.box{
+    height: 330px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+ }
+.element{
+    height: 90px;
+    width: 300px;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: 5px solid black;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 25px;
+    padding: 0px 5px;
+ }
+.element:hover{
+    border: 5px solid #3498DB;
+ }
+::placeholder{
+    color: black;
+    padding: 0px 5px;
+ }
+.btn{
+    height: 50px;
+    width: 180px;
+    background: #3498DB;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+    margin-top: 20px;
+ }
+.element2{
+    margin-left: 250px;
+    top: 500;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    margin-top: 35px;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    border: 4px solid white;
+    cursor: pointer;
+ }
+.element2:hover{
+    border: 4px solid #18bfef;
+ }
+.dev{
+    margin-top: 80px;
+ }
+.dev p{
+    color: yellow;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+.dev .d{
+    border-bottom: 7px solid white;
+ }
+}
+@media(max-width: 435px){
+body{
+    background-color: #3498DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+ }
+h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+ }
+.box{
+    height: 300px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 100px;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+ }
+.element{
+    height: 100px;
+    width: 300px;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: 5px solid black;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 25px;
+    padding: 0px 5px;
+ }
+.element:hover{
+    border: 5px solid #3498DB;
+ }
+::placeholder{
+    color: black;
+    padding: 0px 5px;
+ }
+.btn{
+    height: 50px;
+    width: 180px;
+    background: #3498DB;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 20px;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+    margin-top: 20px;
+ }
+.element2{
+    margin-left: 250px;
+    top: 500;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    margin-top: 35px;
+    height: 50px;
+    width: 100px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 25px;
+    border: 4px solid white;
+    cursor: pointer;
+ }
+.element2:hover{
+    border: 4px solid #18bfef;
+ }
+.dev{
+    margin-top: 80px;
+ }
+.dev p{
+    color: yellow;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+.dev .d{
+    border-bottom: 7px solid white;
+ }
+}
+@media(max-width: 1024px){
+    body{
+    background-color: #3498DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1100px;
+ }
+h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+ }
+.box{
+    height: 300px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 130px;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+ }
+.element{
+    height: 120px;
+    width: 580px;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: 5px solid black;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 30px;
+    padding: 0px 5px;
+ }
+.element:hover{
+    border: 5px solid #3498DB;
+ }
+::placeholder{
+    color: black;
+    padding: 0px 5px;
+ }
+.btn{
+    height: 65px;
+    width: 200px;
+    background: #3498DB;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 25px;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+    margin-top: 20px;
+ }
+.element2{
+    margin-left: 790px;
+    top: 500;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    margin-top: 35px;
+    height: 80px;
+    width: 160px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 35px;
+    border: 4px solid white;
+    cursor: pointer;
+ }
+.element2:hover{
+    border: 4px solid #18bfef;
+ }
+.dev{
+    margin-top: 100px;
+ }
+.dev p{
+    color: yellow;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+.dev .d{
+    border-bottom: 7px solid white;
+ }
+}
+@media(max-width: 1440px){
+    body{
+    background-color: #3498DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1100px;
+ }
+h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+ }
+.box{
+    height: 300px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 130px;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+ }
+.element{
+    height: 120px;
+    width: 580px;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: 5px solid black;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 30px;
+    padding: 0px 5px;
+ }
+.element:hover{
+    border: 5px solid #3498DB;
+ }
+::placeholder{
+    color: black;
+    padding: 0px 5px;
+ }
+.btn{
+    height: 65px;
+    width: 200px;
+    background: #3498DB;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 25px;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+    margin-top: 20px;
+ }
+.element2{
+    margin-left: 790px;
+    top: 500;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    margin-top: 35px;
+    height: 80px;
+    width: 160px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 35px;
+    border: 4px solid white;
+    cursor: pointer;
+ }
+.element2:hover{
+    border: 4px solid #18bfef;
+ }
+.dev{
+    margin-top: 100px;
+ }
+.dev p{
+    color: yellow;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+.dev .d{
+    border-bottom: 7px solid white;
+ }
+}
+@media(max-width: 2560px){
+    body{
+    background-color: #3498DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 1100px;
+ }
+h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    width: 150px;
+    height: 50px;
+    margin-top: 25px;
+ }
+.box{
+    height: 350px;
+    color: white;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    margin-top: 130px;
+    box-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+ }
+.element{
+    height: 140px;
+    width: 550px;
+    margin-top: 35px;
+    border-radius: 15px;
+    border: 5px solid black;
+    outline: none;
+    background: white;
+    color: black;
+    font-size: 30px;
+    padding: 0px 5px;
+ }
+.element:hover{
+    border: 5px solid #3498DB;
+ }
+::placeholder{
+    color: black;
+    padding: 5px 5px;
+ }
+.btn{
+    height: 75px;
+    width: 200px;
+    background: #3498DB;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 30px;
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+    margin-top: 20px;
+ }
+.element2{
+    margin-left: 755px;
+    top: 500;
+    display: flex;
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    margin-top: 30px;
+    height: 90px;
+    width: 180px;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 35px;
+    border: 4px solid white;
+    cursor: pointer;
+ }
+.element2:hover{
+    border: 4px solid #18bfef;
+ }
+.dev{
+    margin-top: 200px;
+ }
+.dev p{
+    color: yellow;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+.dev .d{
+    border-bottom: 7px solid white;
+ }
+}
+
+</style>
+    <meta charset="UTF-8">
+    <title>Weber</title>
+    <meta name="author" content="Supherhero">
+    <meta name="keywords" content="programming hero,learn programming">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="poster_2023-12-13-092211.png">
+    
+
+    <!--custom css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="main">
+<h1><span style="color: yellow; border-bottom: 8px solid red;">We</span><span style="border-top: 8px solid yellow;"</span>ber</h1> 
+      
+     <form name="myform"  method="post">
+          <div class="select">
+      <select class="element2" name="first">
+      <option value="second">Google</option>  
+      <option value="one">Bing</option>
+      <option value="two">Yahoo</option>
+      <option value="three">AOL</option>  
+      <option value="four">Ask</option>  
+      <option value="five">DuckDuckGo</option>
+      <option value="six">Yandex</option>
+      <option value="seven">Kiddle.co</option>
+      <option value="eight">Youtube</option>
+      <option value="nine">Tiktok</option>
+      <option value="ten">X</option>
+      <option value="eleven">Instagram</option>
+      <option value="twelve">Facebook</option>
+      <option value="thirteen">Netflix</option>
+      <option value="fourteen">Audiomack</option>
+      <option value="fifteen">Amazon</option>
+            </select>
+
+       
+
+      <fieldset class="box">                      
+      <p><center><input type="text" name="search" id="search" autocomplete="off" placeholder="Search or enter web address" class="element"></center>   
+      <p><input type="button" class="btn" onclick="return validate()" value="Search">    
+      </fieldset>
+      <div class="dev">
+        <center>
+       <p>Developed By Daffy Technology</p>
+       </center>
+      </div>
+      
+    
+      
+
+    
+
+</div>
+
+
+
+
+
+<!--main js-->
+<script>
+function validate(){
+var search = document.myform.search.value;
+
+if(search==null || search==""){
+ alert("Enter your search keyword or url");
+ return false;
+}else if(document.myform.first.value=="second"){
+  window.location = "https://www.google.com/search?q="+search;
+}else if(document.myform.first.value=="one"){
+  window.location = "https://www4.bing.com/search?ensearch=1&q="+search;
+}else if(document.myform.first.value=="two"){
+  window.location = "https://search.yahoo.com/search?ei=UTF-8&fr=crmas&p="+search;
+}else if(document.myform.first.value=="four"){
+  window.location = "https://www.ask.com/web?q="+search;
+}else if(document.myform.first.value=="three"){
+  window.location = "https://search.aol.com/aol/search?q="+search;
+}else if(document.myform.first.value=="five"){
+  window.location = "https://www.duckduckgo.com/?q="+search;
+}else if(document.myform.first.value=="six"){
+  window.location = "https://yandex.com/search/?text="+search;
+}else if(document.myform.first.value=="seven"){
+  window.location = "https://m.kiddle.co/s.php?q="+search;
+}else if(document.myform.first.value=="eight"){
+  window.location = "https://www.youtube.com/"+search;
+}else if(document.myform.first.value=="nine"){
+  window.location = "https://www.tiktok.com/"+search;
+}else if(document.myform.first.value=="ten"){
+  window.location = "https://www.twitter.com/"+search;
+}else if(document.myform.first.value=="eleven"){
+  window.location = "https://www.instagram.com/"+search;
+}else if(document.myform.first.value=="twelve"){
+  window.location = "https://www.facebook.com/"+search;
+}else if(document.myform.first.value=="thirteen"){
+  window.location = "https://www.netflix.com/"+search;
+}else if(document.myform.first.value=="fourteen"){
+  window.location = "https://www.audiomack.com/"+search;
+}else if(document.myform.first.value=="fifteen"){
+  window.location = "https://www.amazon.com/s?k="+search;
+  }
+}
+</script>     
+</body>
+</html>
